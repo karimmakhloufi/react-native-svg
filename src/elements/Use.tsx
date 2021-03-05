@@ -45,6 +45,8 @@ export default class Use extends Shape<{
       );
     }
 
+    console.log('use props', props);
+
     return (
       <RNSVGUse
         ref={this.refMethod}
