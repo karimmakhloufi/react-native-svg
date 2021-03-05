@@ -45,7 +45,7 @@ export default class Use extends Shape<{
       );
     }
 
-    console.log('use props', props);
+    console.log('use this', this);
 
     return (
       <RNSVGUse
